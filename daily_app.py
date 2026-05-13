@@ -22,10 +22,10 @@ with st.sidebar:
 
 # --- 核心邏輯計算 ---
 # 1. 自動計算減重目標 (減 5kg)
-target_weight = 48
+target_weight = current_weight - 5
 
 # 2. 個人化飲水公式 (體重 x 35cc)
-recommended_water = current_weight * 30
+recommended_water = current_weight * 35
 
 # --- 主畫面顯示 ---
 
